@@ -85,7 +85,7 @@
     /* Estilo para telas grandes (desktop) */
     @media (min-width: 800px) {
         .coluna img {
-            max-width: calc(var (--coluna-width)* 90vw);
+            max-width: calc(var (--coluna-width)* 100vh);
         }
     }
 
