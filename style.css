@@ -53,7 +53,7 @@
         padding: 10px;
          margin-left: auto;
         margin-right: auto;
-        width: 75%;
+        width: 80%;
         line-height: 2em;
 
     }
@@ -105,13 +105,14 @@
 
     nav ul {
         list-style-type: none;
-        padding: 5px;
+        padding: 10px;
         bottom: unset;
     }
 
     nav ul li {
         display: inline;
-        margin-right: 0 px;
+        margin-right: 10px;
+        margin-left: 10px;
         text-align: center;
         text-transform: uppercase;
     }
