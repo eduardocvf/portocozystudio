@@ -4,6 +4,10 @@
     --coluna-width: 0.5; /* Define a variável CSS para a largura da coluna */
 }
 
+.iframe {
+    border: 0;
+}
+
 #logo {
     position: absolute; /* Define a posição da imagem como absoluta */
     top: 10px; /* Define a distância da imagem ao topo do cabeçalho como 10px */
@@ -99,7 +103,7 @@
 
     nav ul {
         list-style-type: none;
-        padding: 20px;
+        padding: 10px;
     }
 
     nav ul li {
@@ -173,9 +177,7 @@
         .centered {
     text-align: center;
     
-}
+    }
 
-.iframe {
-    border: 0;
-}
+
       }
