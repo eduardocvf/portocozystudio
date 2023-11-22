@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+    :root {
+    --coluna-width: 0.5; /* Define a variável CSS para a largura da coluna */
+}
+
+#logo {
+    position: absolute; /* Define a posição da imagem como absoluta */
+    top: 10px; /* Define a distância da imagem ao topo do cabeçalho como 10px */
+    left: 10px; /* Define a distância da imagem à esquerda do cabeçalho como 10px */
+}
+
+.centered .iframe {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.centered .iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.iframe {
+    border: 0;
+}
+    h1{
+        text-align: center;
+        padding-top: 50px;
+        
+    }
+    h2{
+        text-align: center;
+        
+    }
+    h3{
+        text-align: center;
+    }
+    p {
+        text-indent: 50px;
+        padding: 10px;
+         margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        line-height: 2em;
+
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .coluna {
+     flex: var(--coluna-width);
+     background-color: white;
+     border: 0 solid black;
+    }
+
+    .coluna2 {
+        flex: 3;
+        
+        background-color: white; /* Cor de fundo para visualização */
+        border: 0px solid black; /* Adicionando borda */
+        padding: 10px; /* Adicionando um pouco de espaço ao redor do texto */
+
+    }
+    .coluna img {
+        /* Faz a imagem responsiva */
+        margin: 0 auto;
+        
+    }
+
+    /* Estilo para telas grandes (desktop) */
+    @media (min-width: 800px) {
+        .coluna img {
+            max-width: calc(var (--coluna-width)* 100vw);
+        }
+    }
+
+    nav {
+        
+        display: flex;
+        justify-content: center;
+        background-image: none;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: white
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 20px;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 15px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+  
+    body {
+        font-family: Arial, sans-serif;
+        padding: 0px;
+        
+
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        
+    }
+    th, td {
+        border: 1px solid #0f0f0f;
+        padding: 8px;
+        text-align: left;
+    }
+    footer{
+        text-align: center;
+    }
+    figure {
+        text-align: center;
+    }
+    .gallery {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    img {
+        max-width: 80%;
+        
+        
+    }
+    .image {
+        margin: 10px;
+        width: calc(33.33% - 20px);
+        overflow: hidden;
+    }
+    .image img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s;
+    }
+    .image:hover img {
+        transform: scale(1.1);
+    }
+    @media screen and (max-width: 768px) {
+        .image {
+          width: calc(50% - 20px);
+        }
+        .centered .iframe {
+            padding-bottom: 30%; /* Ajuste este valor para alterar a altura do iframe */
+        }
+      }
+      
+      @media screen and (max-width: 480px) {
+        .image {
+          width: 100%;
+        }
+        .centered {
+    text-align: center;
+    
+}
+
+.iframe {
+    border: 0;
+}
+      }
