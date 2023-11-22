@@ -111,7 +111,7 @@
 
     nav ul li {
         display: inline;
-        margin-right: 5px;
+        margin-right: 0 px;
         text-align: center;
         text-transform: uppercase;
     }
