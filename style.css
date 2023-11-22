@@ -186,6 +186,12 @@ img {
     .centered .iframe {
         padding-bottom: 30%; /* Ajuste este valor para alterar a altura do iframe */
     }
+    table {
+        width: 100%;
+    }
+    th, td {
+        font-size: 0.8em; /* Reduz o tamanho da fonte para 80% */
+    }
 }
 
 @media screen and (max-width: 480px) {
