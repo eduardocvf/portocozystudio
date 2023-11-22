@@ -91,6 +91,7 @@
 
     nav {
         
+        box-shadow: 0, 0, 0, 2, black;
         display: flex;
         justify-content: center;
         background-image: none;
@@ -99,11 +100,13 @@
         width: 100%;
         z-index: 999;
         background-color: white
+        
     }
 
     nav ul {
         list-style-type: none;
         padding: 10px;
+        
     }
 
     nav ul li {
