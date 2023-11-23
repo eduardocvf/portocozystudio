@@ -47,7 +47,9 @@ body, h1, h2, h3, p {
 
 h1{
     text-align: center;
-    padding-top: 70px;
+    padding: 70px;
+    margin-left: auto;
+   margin-right: auto;
 }
 
 h2{
