@@ -135,12 +135,17 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
 table {
-    width: 50%;
-    max-width: 50%;
+    width: 100%;
+    max-width: 100%;
     border-collapse: collapse;
-    
 }
 th{
     
