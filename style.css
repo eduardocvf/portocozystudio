@@ -128,18 +128,24 @@ body {
     font-family: Arial, sans-serif;
     padding: 0px;
 }
-
+.center-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 table {
-    width: 100%;
+    width: 50%;
     max-width: 100%;
     border-collapse: collapse;
+    
 }
 
 th, td {
     border: 1px solid #0f0f0f;
     padding: 8px;
     text-align: left;
-    font-size: 0.5em;
+    font-size: 1em;
 }
 
 footer{
