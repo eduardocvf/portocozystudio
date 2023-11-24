@@ -219,10 +219,10 @@ img {
         position: relative;
         height: 0;
         overflow: hidden;
-        padding-bottom: 50%; /* Ajuste este valor para alterar a altura do iframe */
+        padding-bottom: 56.25%; /* para um aspect ratio de 16:9, altere conforme necessário */
     }
     .centered .iframe iframe {
-        position: relative;
+        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
