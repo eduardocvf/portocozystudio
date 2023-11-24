@@ -109,7 +109,12 @@ main {
         max-width: calc(var (--coluna-width)* 100vh);
     }
 }
-
+nav a {
+    color: white; /* Adicionado para alterar a cor do texto dos links para branco */
+}
+nav a:hover {
+    color: red; /* Cor do texto dos links quando o mouse passa por cima */
+}
 nav {
     box-shadow: 0px 0px 2px black;
     display: flex;
@@ -120,15 +125,15 @@ nav {
     left: 0;
     width: 100%;
     z-index: 999;
-    background-color: white;
+    background-color: black; /* Alterado para preto */
+    color: white; /* Adicionado para alterar a cor do texto para branco */
 }
-    
-
 
 nav ul {
     list-style-type: none;
     padding: 10px;
     bottom: unset;
+    color: white; /* Adicionado para alterar a cor do texto para branco */
 }
 
 nav ul li {
@@ -137,12 +142,16 @@ nav ul li {
     margin-left: 10px;
     text-align: center;
     text-transform: uppercase;
+    color: white; /* Adicionado para alterar a cor do texto para branco */
 }
 
 body {
     font-family: Arial, sans-serif;
     padding: 0px;
+    color:black; /* Adicionado para alterar a cor do texto para branco */
 }
+
+
 .center-table {
     display: flex;
     justify-content: center;
