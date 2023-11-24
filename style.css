@@ -30,14 +30,14 @@ body, h1, h2, h3, p {
     text-align: center;
 }
 
-.centered.iframe-container {
+.centered .iframe-container {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
 }
 
-.centered.iframe-container .iframe {
+.centered .iframe-container .iframe {
     position: absolute;
     top: 0;
     left: 0;
